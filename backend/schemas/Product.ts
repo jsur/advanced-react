@@ -36,8 +36,8 @@ export const Product = list({
           fieldMode: 'hidden',
         },
       },
-      price: integer(),
-      // TODO photo
     }),
+    price: integer(),
+    // TODO photo
   },
 });
